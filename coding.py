@@ -35,7 +35,8 @@ class Hello:
         print("نتیجه:", result)
 
         return f"نتیجه محاسبات شما برابر است با: {result}"
-
+    def hook ():
+        pass
 # مقداردهی درست (باید ۳ پارامتر مطابق __init__ داده شود)
 a = Hello("salam", "khodahafez", "ورود")
 
